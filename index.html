@@ -3,46 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anokha</title>
-    <link rel="stylesheet" href="index.css" class="css">
-    
+    <title>Scrolling Navbar</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-    <h1>Welcome to my Page</h1>
-    <nav>
-        <a href = "#">Home</a>
-        <a href = "#">About</a>
-        <a href = "#">Services</a>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">MyWebsite</div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="menu-btn">☰</label>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    </header>
-    <section class="hero">
-        <h2>Your Dream Project Starts Here</h2>
-        <p>Join Us Today and make something amazing.</p>
-        <button>Get Started</button>
-    </section>
 
-    <Section class="features">
-            <div class="card">
-      <h3>Fast</h3>
-      <p>Quick and responsive design.</p>
-      </div>
-    <div class="card">
-            <h3>Modern</h3>
+    <!-- SECTIONS -->
+    <section id="home" class="section">Home Section</section>
+    <section id="about" class="section">About Section</section>
+    <section id="services" class="section">Services Section</section>
+    <section id="projects" class="section">Projects Section</section>
+    <section id="contact" class="section">Contact Section</section>
 
-            <p> Stay Up With Latest trends and technologies.</p>
-        </div>
-    
-
-    <div class="card">
-        <h3>Easy</h3>
-        <p>Simply to Customize and Use.</p>
-    </div>
-    </Section>
-      <footer>
-    <p>© 2025 My Landing Page</p>
-  </footer>
-
-<script src="index.js"></script>
 </body>
 </html>
